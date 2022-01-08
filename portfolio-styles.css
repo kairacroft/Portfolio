@@ -8,7 +8,7 @@ body {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   background-color: gainsboro;
-  background: linear-gradient(-45deg, #b052ee, #3c56e7, #23a6d5, #23d5ab);
+  background: linear-gradient(-45deg, #ecd0ff, #bcc6ff, #a3e7ff, #94e4d1);
   background-size: 400% 400%;
   animation: gradient 15s ease infinite;
   height: 100vh;
@@ -27,7 +27,7 @@ body {
 }
 
 .font-primary {
-  color: rgb(223, 255, 182);
+  color: rgb(255, 255, 255);
 }
 
 .title-icon {
@@ -50,7 +50,7 @@ a.font-black {
 }
 
 .navbar {
-  background-color: rgb(61, 104, 139);
+  background-color: rgb(16, 93, 156);
 }
 /********************
 
@@ -97,7 +97,7 @@ ABOUT
 }
 
 #about .icons a {
-  color: rgb(202, 200, 62);
+  color: rgb(15, 0, 153);
 }
 
 /******************
