@@ -5,11 +5,29 @@ COMMON
 ****************/
 
 body {
-  font-family: "monospace", sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-color: gainsboro;
+  background: linear-gradient(-45deg, #b052ee, #3c56e7, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  height: 100vh;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 .font-primary {
-  color: lightpink;
+  color: rgb(223, 255, 182);
 }
 
 .title-icon {
@@ -29,6 +47,10 @@ h2 {
 
 a.font-black {
   color: #000 !important;
+}
+
+.navbar {
+  background-color: rgb(61, 104, 139);
 }
 /********************
 
@@ -54,13 +76,13 @@ ABOUT
 
 #about .vocation {
   font-size: 17px;
-  color: grey;
+  color: rgb(0, 0, 0);
   margin-bottom: 10px;
 }
 
 #about .skills {
   font-size: 14px;
-  color: lightpink;
+  color: rgb(255, 255, 255);
   margin-bottom: 10px;
 }
 
@@ -75,7 +97,7 @@ ABOUT
 }
 
 #about .icons a {
-  color: lightsalmon;
+  color: rgb(202, 200, 62);
 }
 
 /******************
